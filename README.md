@@ -29,9 +29,8 @@ ELMo (Peters et al., 2017) generalizes traditional word embedding research along
 #### fine-tuning approaches:
 A recent trend in transfer learning from language models (LMs) is to pre-train some model architecture on a LM objective before fine-tuning that same model for a supervised downstream task (Dai and Le, 2015; Howard and Ruder, 2018; Radford et al., 2018). The advantage of these approaches is that few parameters need to be learned from scratch.
 
-![image]
 ![image](https://github.com/oussama-benbrahem/Natural-Questions-Competition-Google-ai/blob/master/images/bert.png)
-![GitHub Logo](https://github.com/oussama-benbrahem/Natural-Questions-Competition-Google-ai/blob/master/images/bert.png)
+
 ### Input Representation
 • The first token of every sequence is always the special classification embedding
 ([CLS]). The final hidden state (i.e., output of Transformer) corresponding to this token is used as the aggregate sequence representation for classification tasks. For nonclassification tasks, this vector is ignored.
